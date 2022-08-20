@@ -2,7 +2,6 @@ module.exports = {
   title: "Today I Learned",
   description: "배운 것을 간략하게 기록합니다.",
   base: "/TIL/",
-  dest: "build",
   head: [
     [
       "link",
