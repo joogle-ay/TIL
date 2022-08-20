@@ -28,4 +28,5 @@ module.exports = {
     ],
     sidebarDepth: 1,
   },
+  plugins: ["@vuepress/back-to-top"],
 };
