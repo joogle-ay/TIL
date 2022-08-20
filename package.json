@@ -1,0 +1,15 @@
+{
+  "name": "TIL-Joogumi",
+  "version": "1.0.0",
+  "description": "TIL blog by vuepress",
+  "main": "index.js",
+  "author": "Jooeun",
+  "license": "MIT",
+  "devDependencies": {
+    "vuepress": "^1.9.7"
+  },
+  "scripts": {
+    "dev": "vuepress dev docs",
+    "build": "vuepress build docs"
+  }
+}
