@@ -1,6 +1,8 @@
+const LIST = require("./list");
+
 module.exports = {
-  title: "Today I Learned",
-  description: "배운 것을 간략하게 기록합니다.",
+  title: "Jooeun's TIL",
+  description: "Slow but Steadily. 오늘 배운 것들을 로그 형식으로 작성합니다. 개발 이야기를 주로 합니다.",
   base: "/TIL/",
   head: [
     [
@@ -13,14 +15,14 @@ module.exports = {
   ],
   themeConfig: {
     nav: [
-      { text: "About", link: "/about/about-me" },
+      // { text: "About", link: "/about/about-me" },
       { text: "Github", link: "https://github.com/Jooeun-K", target: "_blank" },
       { text: "Blog", link: "https://guuumi.tistory.com/", target: "_blank" },
     ],
     sidebar: [
       {
-        title: "2022",
-        children: ["/2022/220820"],
+        title: "2022 TIL",
+        children: LIST.TIL_2022,
       },
     ],
   },
