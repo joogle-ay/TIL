@@ -1,7 +1,7 @@
 <template>
   <div>
     <div class="titleContainer">
-      <h1>안 쓰면 까먹는다
+      <h1 class="title">안 쓰면 까먹는다
       </h1>
     </div>
   </div>
@@ -15,7 +15,7 @@
 .infoContainer {
   text-align: right;
 }
-h1 {
+h1.title {
   font-family: "Gugi", cursive;
   font-weight: 500;
   border-bottom: 17px solid #ffd816;
