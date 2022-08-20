@@ -26,6 +26,6 @@ module.exports = {
         children: LIST.TIL_2022,
       },
     ],
-    sidebarDepth: 2,
+    sidebarDepth: 1,
   },
 };
