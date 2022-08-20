@@ -19,8 +19,8 @@ module.exports = {
     ],
     sidebar: [
       {
-        title: "TIL",
-        children: ["/TIL/220820"],
+        title: "2022",
+        children: ["/2022/220820"],
       },
     ],
   },
