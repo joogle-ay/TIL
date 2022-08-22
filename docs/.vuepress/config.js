@@ -25,6 +25,10 @@ module.exports = {
         title: "2022 TIL",
         children: LIST.TIL_2022,
       },
+      {
+        title: "Bookmark",
+        children: LIST.BOOKMARK,
+      },
     ],
     sidebarDepth: 1,
   },
