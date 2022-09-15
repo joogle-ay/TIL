@@ -13,9 +13,20 @@ module.exports = {
   head: [
     [
       "link",
-      { rel: "shortcut icon", href: "/favicon.ico", type: "image/x-icon" },
+      {
+        rel: "shortcut icon",
+        href: "/assets/favicon/favicon.ico",
+        type: "image/x-icon",
+      },
     ],
-    ["link", { rel: "icon", href: "/favicon.ico", type: "image/x-icon" }],
+    [
+      "link",
+      {
+        rel: "icon",
+        href: "/assets/favicon/favicon.ico",
+        type: "image/x-icon",
+      },
+    ],
   ],
   themeConfig: {
     nav: [
