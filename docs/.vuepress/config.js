@@ -1,5 +1,10 @@
 const LIST = require("./list");
 
+{
+  /* <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+<link rel="icon" href="/favicon.ico" type="image/x-icon"></link> */
+}
+
 module.exports = {
   title: "Jooeun's TIL",
   description:
@@ -8,11 +13,9 @@ module.exports = {
   head: [
     [
       "link",
-      {
-        rel: "icon",
-        href: "/logo.png",
-      },
+      { rel: "shortcut icon", href: "/favicon.ico", type: "image/x-icon" },
     ],
+    ["link", { rel: "icon", href: "/favicon.ico", type: "image/x-icon" }],
   ],
   themeConfig: {
     nav: [
