@@ -44,7 +44,7 @@ module.exports = {
         children: LIST.BOOKMARK,
       },
     ],
-    sidebarDepth: 1,
+    sidebarDepth: 2,
   },
   plugins: ["@vuepress/back-to-top"],
 };
