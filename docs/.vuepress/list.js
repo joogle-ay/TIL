@@ -6,4 +6,4 @@ exports.TIL_2022 = [
   "/2022/2022-07",
 ];
 exports.BOOKMARK = ["/bookmark/2022"];
-exports.BOOK_JS = ["/book-js/js-deepdive"];
+exports.BOOK_JS = ["/book-js/js-deepdive", "/book-js/network-for-everyone"];
