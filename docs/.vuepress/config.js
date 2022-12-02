@@ -47,10 +47,6 @@ module.exports = {
         children: LIST.TIL_2022,
       },
       {
-        title: "독서 기록",
-        children: LIST.BOOK_JS,
-      },
-      {
         title: "Bookmark",
         children: LIST.BOOKMARK,
       },
