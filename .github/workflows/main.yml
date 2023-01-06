@@ -2,7 +2,7 @@ name: Build and Deploy
 on: [push]
 jobs:
   build-and-deploy:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-19.10
     steps:
       - name: Checkout
         uses: actions/checkout@main
@@ -10,7 +10,7 @@ jobs:
       - name: Setup Node
         uses: actions/setup-node@v1
         with:
-          node-version: "16.x"
+          node-version: "10.x"
 
       - name: Vuepress-deploy
         uses: jenkey2011/vuepress-deploy@1.0.1
