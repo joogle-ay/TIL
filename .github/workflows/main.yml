@@ -13,7 +13,7 @@ jobs:
           node-version: "10.x"
 
       - name: Vuepress-deploy
-        uses: jenkey2011/vuepress-deploy@1.0.1
+        uses: jenkey2011/vuepress-deploy@main
         env:
           ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
           TARGET_BRANCH: gh-pages
