@@ -12,5 +12,6 @@ jobs:
         env:
           ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
           TARGET_BRANCH: gh-pages
+          TARGET_REPO: Jooeun-K/TIL
           BUILD_SCRIPT: yarn && yarn build
           BUILD_DIR: docs/.vuepress/dist/
