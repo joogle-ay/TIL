@@ -11,7 +11,6 @@ jobs:
         uses: jenkey2011/vuepress-deploy@latest
         env:
           ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
-          TARGET_BRANCH: gh-pages
-          TARGET_REPO: Jooeun-K/TIL
+          TARGET_BRANCH: pages
           BUILD_SCRIPT: yarn && yarn build
           BUILD_DIR: docs/.vuepress/dist/
