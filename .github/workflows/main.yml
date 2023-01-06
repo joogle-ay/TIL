@@ -7,10 +7,18 @@ jobs:
       - name: Checkout
         uses: actions/checkout@main
 
+      - name: Setup Node
+        uses: actions/setup-node@v1
+        with:
+        node-version: "18.x"
+
+      - run: npm install -D vuepress
+
+      - run: npm run build
+
       - name: Vuepress-deploy
-        uses: jenkey2011/vuepress-deploy@latest
+        uses: peaceiris/actions-gh-pages@v2
         env:
-          ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
-          TARGET_BRANCH: pages
-          BUILD_SCRIPT: yarn && yarn build
-          BUILD_DIR: docs/.vuepress/dist/
+          ACTIONS_DEPLOY_KEY: ${{ secrets.ACCESS_TOKEN }}
+          PUBLISH_BRANCH: pages
+          PUBLISH_DIR: docs/.vuepress/dist/
