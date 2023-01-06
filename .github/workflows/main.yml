@@ -7,7 +7,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@main
 
-      - name: Setup Node
+      - name: Setup Node16
         uses: actions/setup-node@v1
         with:
           node-version: "16.x"
