@@ -7,11 +7,6 @@ jobs:
       - name: Checkout
         uses: actions/checkout@main
 
-      - name: Setup Node
-        uses: actions/setup-node@v1
-        with:
-          node-version: "10.x"
-
       - name: Vuepress-deploy
         uses: jenkey2011/vuepress-deploy@latest
         env:
