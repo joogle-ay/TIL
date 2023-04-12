@@ -53,7 +53,7 @@ module.exports = {
       {
         title: "Bookmark",
         children: LIST.BOOKMARK,
-      },
+      }
     ],
     sidebarDepth: 2,
   },
