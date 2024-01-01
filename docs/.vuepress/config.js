@@ -43,6 +43,10 @@ module.exports = {
     ],
     sidebar: [
       {
+        title: "2024 TIL",
+        children: LIST.TIL_2024,
+      },
+      {
         title: "2023 TIL",
         children: LIST.TIL_2023,
       },
@@ -53,7 +57,7 @@ module.exports = {
       {
         title: "Bookmark",
         children: LIST.BOOKMARK,
-      }
+      },
     ],
     sidebarDepth: 2,
   },
