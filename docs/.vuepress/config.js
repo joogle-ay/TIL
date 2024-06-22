@@ -38,7 +38,7 @@ module.exports = {
   themeConfig: {
     nav: [
       // { text: "About", link: "/about/about-me" },
-      { text: "Github", link: "https://github.com/Jooeun-K", target: "_blank" },
+      { text: "Github", link: "https://github.com/joogle-ay", target: "_blank" },
       { text: "Blog", link: "https://guuumi.tistory.com/", target: "_blank" },
     ],
     sidebar: [
