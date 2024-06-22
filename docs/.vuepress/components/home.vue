@@ -1,9 +1,11 @@
 <template>
   <div>
-    <div class="titleBox">
-      <h1 class="title"><span>Slow but steadily</span></h1>
+    <div class="title_box">
+      <h1 class="title">
+        <span class="title_text">Slow but steadily</span>
+      </h1>
     </div>
-    <div class="contentBox">
+    <div>
       <h3>This is Jooeun's TIL.</h3>
       <p>
         시야를 계속해서 넓혀나가고 싶은 프론트엔드 개발자
@@ -12,7 +14,6 @@
         정돈된 글, 회고 등은
         <a href="https://guuumi.tistory.com/" target="_blank">티스토리 블로그</a>에 작성하는 편입니다.
       </p>
-      <a></a>
     </div>
   </div>
 </template>
@@ -26,7 +27,7 @@
   font-weight: normal;
   font-style: normal;
 }
-.titleBox {
+.title_box {
   text-align: left;
 }
 .title {
@@ -38,7 +39,7 @@
   position: relative;
   display: inline-block;
 }
-.title span {
+.title_text {
   position: relative;
   z-index: 1;
 }
