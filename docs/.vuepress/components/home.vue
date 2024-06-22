@@ -6,7 +6,7 @@
     <div class="contentBox">
       <h3>This is Jooeun's TIL.</h3>
       <p>
-        시야를 계속해서 넓혀나가고 싶은 주니어 프론트엔드 개발자
+        시야를 계속해서 넓혀나가고 싶은 프론트엔드 개발자
         <a href="https://github.com/joogle-ay" target="_blank">강주은</a>입니다.✨<br />
         이 곳에는 오늘 배운 것들을 로그 형식으로 기록합니다.<br />
         정돈된 글, 회고 등은
@@ -29,7 +29,7 @@
 .titleBox {
   text-align: left;
 }
-h1.title {
+.title {
   font-family: "GongGothicMedium", "돋움", sans-serif;
   font-weight: 500;
   word-break: keep-all;
@@ -38,11 +38,11 @@ h1.title {
   position: relative;
   display: inline-block;
 }
-h1.title span {
+.title span {
   position: relative;
   z-index: 1;
 }
-h1.title:before {
+.title:before {
   content: "";
   width: calc(100% + 20px);
   height: 26px;
