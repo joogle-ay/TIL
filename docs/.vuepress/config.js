@@ -38,7 +38,7 @@ module.exports = {
     nav: [
       // { text: "About", link: "/about/about-me" },
       { text: "Github", link: "https://github.com/joogle-ay", target: "_blank" },
-      { text: "Blog", link: "https://guuumi.tistory.com/", target: "_blank" },
+      { text: "Linked In", link: "https://www.linkedin.com/in/jooeun-kang-845a49250", target: "_blank" },
     ],
     sidebar: [
       { title: "2025 TIL", children: LIST.TIL_2025 },
