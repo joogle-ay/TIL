@@ -17,6 +17,7 @@ exports.TIL_2023 = [
   "/2023/2023-01",
 ];
 exports.TIL_2024 = ["/2024/2024-01", "/2024/2024-06"];
+exports.TIL_2025 = ["/2025/2024-회고"];
 exports.TRANSLATE = ["/translate/info", "/translate/react_strictmode"];
 exports.BOOKMARK = ["/bookmark/2022", "/bookmark/blogs"];
 exports.BOOK_JS = ["/book-js/js-deepdive", "/book-js/network-for-everyone"];

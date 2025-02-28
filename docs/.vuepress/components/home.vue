@@ -10,9 +10,7 @@
       <p>
         시야를 계속해서 넓혀나가고 싶은 프론트엔드 개발자
         <a href="https://github.com/joogle-ay" target="_blank">강주은</a>입니다.✨<br />
-        이 곳에는 오늘 배운 것들을 로그 형식으로 기록합니다.<br />
-        정돈된 글, 회고 등은
-        <a href="https://guuumi.tistory.com/" target="_blank">티스토리 블로그</a>에 작성하는 편입니다.
+        이 곳에는 여러가지 경험을 통해 배운 것들을 로그 형식으로 기록합니다.
       </p>
     </div>
   </div>

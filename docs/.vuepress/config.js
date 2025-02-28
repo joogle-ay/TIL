@@ -41,22 +41,11 @@ module.exports = {
       { text: "Blog", link: "https://guuumi.tistory.com/", target: "_blank" },
     ],
     sidebar: [
-      {
-        title: "2024 TIL",
-        children: LIST.TIL_2024,
-      },
-      {
-        title: "2023 TIL",
-        children: LIST.TIL_2023,
-      },
-      {
-        title: "2022 TIL",
-        children: LIST.TIL_2022,
-      },
-      {
-        title: "Bookmark",
-        children: LIST.BOOKMARK,
-      },
+      { title: "2025 TIL", children: LIST.TIL_2025 },
+      { title: "2024 TIL", children: LIST.TIL_2024 },
+      { title: "2023 TIL", children: LIST.TIL_2023 },
+      { title: "2022 TIL", children: LIST.TIL_2022 },
+      { title: "Bookmark", children: LIST.BOOKMARK },
     ],
     sidebarDepth: 2,
   },
